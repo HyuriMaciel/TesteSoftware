@@ -28,9 +28,9 @@ public class TesteFila {
 					minhaFila.push(new Integer(2));
 					minhaFila.push(new Integer(3));
 					minhaFila.push(new Integer(4));
-					minhaFila.push(new Integer(5));
 					
-					assertEquals(new Integer(5), minhaFila.back());
+					
+					assertEquals(new Integer(4), minhaFila.back());
 		 
 	 }
 	
@@ -43,7 +43,7 @@ public class TesteFila {
 			minhaFila.push(new Integer(4));
 			minhaFila.push(new Integer(5));
 			
-			assertEquals("[1,2,3,4,5]", minhaFila.pop());
+			assertEquals(new Integer(1), minhaFila.pop());
 		 
 		
 	}
