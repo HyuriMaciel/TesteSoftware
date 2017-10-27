@@ -2,7 +2,12 @@
 
 Teste de Software 
 
-<h1>Especificação FILA </h1>
+<h3>Organização das pastas</h3>
+* Atividade-teste (primeira atividade bools)
+* filateste (atividade com handoop, primeira implementação)
+* filateste2 (atividade com handoop, segunda implementação, fila estatica)
+
+<h2>Especificação FILA </h2> <h3>filateste e filateste2</h3>
 
 Estrutura de dados implementada em java com testes unitários
 
