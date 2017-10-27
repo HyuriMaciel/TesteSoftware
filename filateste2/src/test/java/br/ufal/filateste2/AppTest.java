@@ -2,11 +2,13 @@ package br.ufal.filateste2;
 
 import static org.junit.Assert.assertEquals;
 
+import org.junit.Test;
+
 public class AppTest{
 	
 	
 		
-	 @Test
+	@Test	
 		public void testefront() {
 		
 		    HRQueue<Integer> minhaFila = new HRQueue<Integer>(5);

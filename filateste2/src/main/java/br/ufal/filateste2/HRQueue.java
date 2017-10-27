@@ -1,6 +1,6 @@
 package br.ufal.filateste2;
 
-public class HRQueue<> {
+public class HRQueue<T> {
 	    private T[] vector;
 	    private int size;
 	    private int head;
