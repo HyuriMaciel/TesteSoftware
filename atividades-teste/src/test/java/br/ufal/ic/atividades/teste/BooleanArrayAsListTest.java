@@ -27,20 +27,7 @@ public class BooleanArrayAsListTest {
     public static void tearDownClass() {
     }
     
-    @Before
-    public void setUp() {
-        boolean[] Vazio = {};
-        boolean[] Falso = {false};
-        boolean[] Verdadeiro = {true};
-        boolean[] FalsoFalso = {false, false};
-        boolean[] FalsoVerdadeiro = {false, true};
-        boolean[] VerdadeiroVerdadeiro = {true, true};
-        boolean[] VddVddVdd = {true, true, true};
-        BAAL1 = new BooleanArrayAsList(Vazio, 0,Vazio.length);
-        BAAL2 = new BooleanArrayAsList(VerdadeiroVerdadeiro, 0, VerdadeiroVerdadeiro.length);
-        BAAL3 = new BooleanArrayAsList(VddVddVdd, 0, VddVddVdd.length);
-    }
-    
+      
    
     
     @Test
@@ -111,14 +98,7 @@ public class BooleanArrayAsListTest {
     public void SublistTest() {
         throw new UnsupportedOperationException("not implemented yet.");
     }
-    
-    @Test
-    public void EqualsTest() {
-        assertEquals(1, BAAL1.hashCode());
-        assertEquals(40353, BAAL2.hashCode());
-        assertEquals(1252174, BAAL3.hashCode());
-
-    }
+ 
     
     @Test
     public void HashCodeTest() {
