@@ -41,9 +41,7 @@ public class BooleanArrayAsListTest {
         BAAL3 = new BooleanArrayAsList(VddVddVdd, 0, VddVddVdd.length);
     }
     
-    @After
-    public void tearDown() {
-    }
+   
     
     @Test
     public void SizeTest() {
