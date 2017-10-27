@@ -2,9 +2,12 @@
 
 Teste de Software 
 
-<h3>Organização das pastas</h3>
+<h3>Organização das pastas:</h3>
+
 * Atividade-teste (primeira atividade bools)
+
 * filateste (atividade com handoop, primeira implementação)
+
 * filateste2 (atividade com handoop, segunda implementação, fila estatica)
 
 <h2>Especificação FILA </h2> <h3>filateste e filateste2</h3>
