@@ -208,5 +208,5 @@ public class BoolsTeste {
         assertEquals(0, Bools.checkElementIndex(0, 1, "test"));
         assertEquals(-1, Bools.checkElementIndex(2, 1, "test"));
     }
-    // public void hello() {}
+  
 }
