@@ -40,6 +40,11 @@
   </dependencies>
   <build>
       <plugins>
+      <plugin>
+    <groupId>org.pitest</groupId>
+    <artifactId>pitest-maven</artifactId>
+    <version>LATEST</version>
+ </plugin>
           <plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
@@ -55,10 +60,10 @@
 		    <version>1.1.0</version>
 		    <configuration>
 		        <targetClasses>
-		            <param>Pessoa*</param>
+		            <param>br.ufal.pitestexemplo.Pessoa*</param>
 		        </targetClasses>
 		       <targetTests>
-		            <param>Pessoa*</param>
+		            <param>r.ufal.pitestexemplo.Pessoa*</param>
 		        </targetTests>
 		    </configuration>
 		</plugin>
