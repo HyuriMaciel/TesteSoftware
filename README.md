@@ -8,6 +8,8 @@ Teste de Software
 
 * filateste2 (atividade com handoop, segunda implementação, fila estatica)
 
+* pitestexemplo (exemplo de codigo com utilização de fremework de testes mutantes "Pitest")
+
 <h2>Especificação FILA </h2> <h3>filateste e filateste2</h3>
 
 Estrutura de dados implementada em java com testes unitários
@@ -22,4 +24,3 @@ Metodos da fila implementada:
 * public void push(T element) : adiciona um elemento a fila
 * public T pop() : Retira o primeiro elemento da fila
   
-
