@@ -4,8 +4,6 @@ Teste de Software
 
 <h3>Organização das pastas:</h3>
 
-* Atividade-teste (primeira atividade bools)
-
 * filateste (atividade com handoop, primeira implementação)
 
 * filateste2 (atividade com handoop, segunda implementação, fila estatica)
