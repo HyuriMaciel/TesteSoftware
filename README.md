@@ -1,6 +1,6 @@
 # Teste de Software 
 
-
+Estudos de teste de software realizados para disciplina de teste de software do Instituto de Computaço da Universidade Federal de Alagoas. 
 
 <h3>Organização das pastas:</h3>
 
